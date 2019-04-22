@@ -1,7 +1,7 @@
 # import necessary libraries
 from flask import Flask, render_template,redirect
 import pymongo
-import missionMars
+import scrape_mars
 
 
 # create instance of Flask app
@@ -49,15 +49,15 @@ def home():
 def scrape():
     db.collection.remove()
 
-    News_dict = missionMars.mars_news_function()
+    News_dict = scrape_mars.mars_news_function()
     db.collection.insert_one(News_dict)
 
     db.collection_image.remove()
-    feature_Image_dict = missionMars.Feature_Image_function()
+    feature_Image_dict = scrape_mars.Feature_Image_function()
     db.collection_image.insert_one(feature_Image_dict)
 
     db.collection_weather.remove()
-    weather_dict = missionMars.Weather_function()
+    weather_dict = scrape_mars.Weather_function()
     db.collection_weather.insert_one(weather_dict)
 
 

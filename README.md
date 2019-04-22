@@ -1,7 +1,5 @@
 <h1>Mars Web Application</h1>
 
-![](mission.jpg)
-
 Instructions: In this project, the goal was to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 tools used:
@@ -16,10 +14,10 @@ tools used:
 <h3>Results</h3>
 
 
-![](imge_one.png)
+![](Screenshot_1.png)
 
-![](imge_two.png)
+![](Screenshot_2.png)
 
-![](imge_three.png)
+![](Screenshot_3.png)
 
 
