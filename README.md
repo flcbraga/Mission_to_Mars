@@ -14,10 +14,10 @@ tools used:
 <h3>Results</h3>
 
 
-![](Screenshot_1.jpg)
+![](Screenshot_1.JPG)
 
-![](Screenshot_2.jpg)
+![](Screenshot_2.JPG)
 
-![](Screenshot_3.jpg)
+![](Screenshot_3.JPG)
 
 
