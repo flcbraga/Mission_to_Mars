@@ -1,5 +1,6 @@
 # import necessary libraries
 from flask import Flask, render_template,redirect
+from flask_pymongo import PyMongo
 import pymongo
 import scrape_mars
 
@@ -61,9 +62,9 @@ def scrape():
     db.collection_weather.insert_one(weather_dict)
 
 
-    # db.collection_hemisphere.remove()
-    # full_hemisphere_dict = missionMars.hemisphere_images()
-    # db.collection_hemisphere.insert_one(full_hemisphere_dict)
+    db.collection_hemisphere.remove()
+    full_hemisphere_dict = scrape_mars.hemisphere_images()
+    db.collection_hemisphere.insert_one(full_hemisphere_dict)
 
 
    
