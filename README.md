@@ -1,4 +1,4 @@
-<h1>Mars Web Application</h1>
+<h1>Mission to Mars - Web Scraping Application</h1>
 
 Instructions: In this project, the goal was to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
